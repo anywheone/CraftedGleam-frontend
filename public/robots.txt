@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Disallow: /private/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /tmp/
+
+# Sitemapを登録する場合（将来向け）
+# Sitemap: https://yourdomain.com/sitemap.xml
