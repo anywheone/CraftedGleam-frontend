@@ -13,8 +13,8 @@ RUN npm install
 # ソースコードをコンテナ内にコピー
 COPY . .
 
-# ポート3000を開放
-EXPOSE 3000
+# ポート5173を開放（Viteのデフォルトポート）
+EXPOSE 5173
 
 # 開発サーバーを起動するコマンド
-CMD ["npm", "start"]
+CMD ["npm", "run", "dev"]
