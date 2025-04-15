@@ -18,3 +18,6 @@ EXPOSE 5173
 
 # 開発サーバーを起動するコマンド
 CMD ["npm", "run", "dev"]
+
+# curlをインストール
+RUN apt-get update && apt-get install -y curl
