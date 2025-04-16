@@ -1,45 +1,64 @@
 # --------------------
 # ログファイル
 # --------------------
-logs/                 # ログディレクトリ
-*.log                 # 一般的なログファイル
-npm-debug.log*        # npm
-yarn-debug.log*       # yarn
-yarn-error.log*       # yarn error
-pnpm-debug.log*       # pnpm
-lerna-debug.log*      # lerna
+# ログディレクトリ
+logs/
+# 一般的なログファイル
+*.log
+# npm
+npm-debug.log*
+# yarn
+yarn-debug.log*
+# yarn error
+yarn-error.log*
+# pnpm
+pnpm-debug.log*
+# lerna
+lerna-debug.log*
 
 # --------------------
 # 依存関係
 # --------------------
-node_modules/         # Node.jsの依存パッケージ
+# Node.jsの依存パッケージ
+node_modules/
 
 # --------------------
 # ビルド成果物
 # --------------------
-dist/                 # Viteなどのビルド出力
-dist-ssr/             # サーバーサイドレンダリング
-*.vite/               # Viteのキャッシュ
-*.tsbuildinfo         # TypeScriptのビルド情報
+# Viteなどのビルド出力
+dist/
+# サーバーサイドレンダリング
+dist-ssr/
+# Viteのキャッシュ
+*.vite/
+# TypeScriptのビルド情報
+*.tsbuildinfo
 
 # --------------------
 # 環境設定ファイル
 # --------------------
-*.env                 # 環境変数ファイル（APIキーなど）
-*.local               # ローカル設定
+# 環境変数ファイル（APIキーなど）
+*.env
+# ローカル設定
+*.local
 
 # --------------------
 # エディタ・IDE関連
 # --------------------
-.vscode/*             # VSCode設定
-!.vscode/extensions.json  # 共有用に明示的に除外解除
-.idea/                # JetBrains系（WebStormなど）
+# VSCode設定
+.vscode/*
+# 共有用に明示的に除外解除
+!.vscode/extensions.json
+# JetBrains系（WebStormなど）
+.idea/
 
 # --------------------
 # OS固有ファイル
 # --------------------
-.DS_Store             # macOS
-Thumbs.db             # Windows
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
 
 # --------------------
 # Visual Studio関連
@@ -52,4 +71,5 @@ Thumbs.db             # Windows
 # --------------------
 # 一時ファイル
 # --------------------
-*.sw?                 # Vimなどのスワップファイル
+# Vimなどのスワップファイル
+*.sw?
