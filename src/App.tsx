@@ -4,8 +4,7 @@ import AppRouter from './routes/AppRouter';
 
 export default function App() {
   return (
-    // <div className="bg-custom-beach bg-cover bg-center min-h-screen">
-    <div className="bg-cover bg-center min-h-screen">
+    <div className="bg-crafted-gleam bg-cover bg-center min-h-screen">
       <CategoryProvider>
         <Header />
         <main className="p-4">

@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'custom-beach': "url('/src/assets/images/beach.jpg')",
+        'crafted-gleam': "url('./assets/images/bg-crafted-gleam.png')",
       },
     },
   },
