@@ -4,9 +4,9 @@ import { useCategory } from "../contexts/CategoryContext";
 import { useEffect } from "react";
 
 const categories = [
-  { id: "rings", title: "リング", imageSrc: "/src/assets/images/ring.jpg" },
-  { id: "necklaces", title: "ネックレス", imageSrc: "/src/assets/images/necklace.jpg" },
-  { id: "bracelets", title: "ブレスレット", imageSrc: "/src/assets/images/bracelet.jpg" },
+  { id: "rings", title: "リング", imageSrc: "/src/assets/images/rings.png" },
+  { id: "necklaces", title: "ネックレス", imageSrc: "/src/assets/images/necklace.png" },
+  { id: "bracelets", title: "ブレスレット", imageSrc: "/src/assets/images/bracelet.png" },
 ];
 
 export default function HomePage() {
@@ -24,7 +24,7 @@ export default function HomePage() {
 
   return (
     <div className="p-4">
-      <h1 className="text-2xl font-bold mb-4">カテゴリーを選択</h1>
+      <h1 className="text-2xl text-white font-bold mb-4">カテゴリーを選択</h1>
       <CategoryList
         categories={categories}
         // onSelectCategory={(id) => navigate(`/products?category=${id}`)}

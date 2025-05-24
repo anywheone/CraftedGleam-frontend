@@ -9,9 +9,9 @@ type CategoryCardProps = {
 
 export default function CategoryCard({ title, imageSrc, onClick }: CategoryCardProps) {
   return (
-    <div className="border rounded-lg p-4 hover:shadow-lg cursor-pointer" onClick={onClick}>
-      <Image src={imageSrc} alt={title} className="w-full h-40 rounded-md mb-2" />
-      <Heading level={3} className="text-center">{title}</Heading>
+    <div className="border rounded-lg p-2 w-48 hover:shadow-lg cursor-pointer" onClick={onClick}>
+      <Image src={imageSrc} alt={title} className="w-full h-32 object-contain mx-auto p-1 mb-2" />
+      <Heading level={3} className="text-center text-white">{title}</Heading>
     </div>
   );
 }

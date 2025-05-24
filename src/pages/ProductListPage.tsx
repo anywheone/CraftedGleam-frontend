@@ -4,8 +4,8 @@ import Button from "../components/atoms/Button";
 import { useCategory } from "../contexts/CategoryContext";
 
 const products = [
-  { id: "1", name: "シルバーリング", category: "rings", price: 12000, imageSrc: "/src/assets/images/ring.jpg" },
-  { id: "2", name: "ゴールドネックレス", category: "necklaces", price: 18000, imageSrc: "/src/assets/images/necklace.jpg" },
+  { id: "1", name: "ラブラドライトリング", category: "rings", price: 12000, imageSrc: "/src/assets/images/labradorite-ring.jpg" },
+  { id: "2", name: "タヒチブラックパールネックレス", category: "necklaces", price: 18000, imageSrc: "/src/assets/images/tahitian-black-pearl.jpg" },
   { id: "3", name: "パールブレスレット", category: "bracelets", price: 15000, imageSrc: "/src/assets/images/bracelet.jpg" },
   { id: "4", name: "ゴールドリング", category: "rings", price: 12000, imageSrc: "/src/assets/images/ring.jpg" },
   { id: "5", name: "シルバーネックレス", category: "necklaces", price: 18000, imageSrc: "/src/assets/images/necklace.jpg" },
@@ -29,9 +29,9 @@ export default function ProductListPage() {
         onClick={() => navigate(-1)} 
         className=""
       >
-        ← 戻る
+        ⇐ 戻る
       </Button>
-      <h1 className="text-2xl font-bold mb-4">商品一覧 ({selectedCategory ?? "全て"})</h1>
+      <h1 className="text-2xl text-white font-bold mb-4">商品一覧 ({selectedCategory ?? "全て"})</h1>
       <ProductList products={filteredProducts} />
     </div>
   );

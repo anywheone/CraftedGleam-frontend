@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+        // crafted-gleamの場合、bg-crafted-gleamと指定すること
         'crafted-gleam': "url('./assets/images/bg-crafted-gleam.png')",
       },
     },

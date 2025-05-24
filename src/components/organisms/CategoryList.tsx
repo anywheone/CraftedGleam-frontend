@@ -14,7 +14,7 @@ type CategoryListProps = {
 export default function CategoryList({ categories, onSelectCategory }: CategoryListProps) {
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div className="grid grid-cols-2 md:grid-cols-6 gap-4">
       {categories.map((c) => (
         <CategoryCard
           key={c.id}

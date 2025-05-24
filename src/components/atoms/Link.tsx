@@ -8,7 +8,7 @@ type LinkProps = {
 
 export default function Link({ to, children, className = "" }: LinkProps) {
   return (
-    <RouterLink to={to} className={`text-blue-600 hover:underline ${className}`}>
+    <RouterLink to={to} className={`text-white hover:underline ${className}`}>
       {children}
     </RouterLink>
   );
